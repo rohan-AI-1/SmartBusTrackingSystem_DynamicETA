@@ -1,0 +1,27 @@
+name: passenger_app
+description: "Smart Bus Transit Passenger Application - Vijayapura"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  socket_io_client: ^3.1.6
+  http: ^1.6.0
+  geolocator: ^12.0.0
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

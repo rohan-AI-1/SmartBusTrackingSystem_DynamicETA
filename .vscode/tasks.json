@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Temporary Flutter Android debug build",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"cd /d C:\\Users\\Welcome\\Desktop\\smart-bus-transit\\conductor_app && flutter build apk --debug"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
